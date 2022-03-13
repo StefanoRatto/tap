@@ -1,0 +1,26 @@
+# tap config options
+
+# The username for the ssh connection
+USERNAME=
+# The password for the reverse ssh connection
+PASSWORD=
+# The reverse ssh ipaddr or hostname
+IPADDR=
+# The port for the reverse connect
+PORT=
+# SSH check is in seconds
+SSH_CHECK_INTERVAL=60
+# The local SSH port on the reverse SSH host
+LOCAL_PORT=12345
+# Where to pull updates from
+UPDATE_SERVER=
+# URL for command updates - ENSURE THAT THE FIRST LINE OF TEXT FILE HAS: 'EXECUTE COMMANDS' or it will not execute anything!
+COMMAND_UPDATES=
+# SPECIFY IF TAP WILL AUTOMATICALLY UPDATE OR NOT
+AUTO_UPDATE=OFF
+# SPECIFY IF SSH KEYS ARE IN USE OR NOT
+SSH_KEYS=ON
+# LOG EVERY COMMAND VIA SSH? YES OR NO - ALL LOGS GO TO /var/log/messages
+LOG_EVERYTHING=YES
+# THIS IS USED TO TUNNEL SOCKS HTTP TRAFFIC FOR LINUX UPDATES
+SOCKS_PROXY_PORT=12346
